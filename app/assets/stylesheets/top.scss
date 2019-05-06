@@ -1,7 +1,7 @@
 .loginPage {
-  background-color: #FFA89A;
+  background-color: #f3c538;
   &_contents {
-    height: 80vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -13,11 +13,14 @@
       display: block;
       max-width: 400px;
       padding: 20px;
-      margin: 0 auto;
+      margin-top: 0px;
+      margin-right: auto;
+      margin-bottom: 100px;
+      margin-left: auto;
       border-radius: 30px;
       background: #E21E0D ;
       color: #fff;
-      border-color: black;
+      border-color: #2E2F30;
       border-style: solid;
       border-width: 3px 7px 7px 3px;
     }
