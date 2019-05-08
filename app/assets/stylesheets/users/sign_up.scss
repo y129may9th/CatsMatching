@@ -1,7 +1,14 @@
 body{
   background:#f3c538;
-  overflow: visible;
+  overflow: none;
 }
+
+ .notice,
+ .alert {
+   display: none;
+ }
+
+
 
 .signup-page .panel-default{
   padding: inherit;
