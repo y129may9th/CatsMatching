@@ -4,5 +4,9 @@ class ReactionsController < ApplicationController
   reaction.update_attributes(
     status: params[:reaction]
   )
+  p "################"
+  p reaction
+  p "################"
+    #binding.pry
   end
 end
