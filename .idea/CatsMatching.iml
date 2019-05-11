@@ -360,6 +360,24 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="coderay (vbundled(1.1.2)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/coderay-1.1.2/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/coderay-1.1.2/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/coderay-1.1.2/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/coderay-1.1.2/lib" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/coderay-1.1.2/bin" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="coffee-rails (vbundled(4.2.2)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
@@ -859,6 +877,27 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="pg (vbundled(1.1.4)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/pg-1.1.4/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/pg-1.1.4/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/pg-1.1.4/spec" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/pg-1.1.4/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/pg-1.1.4/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/pg-1.1.4/spec" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/pg-1.1.4/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/pg-1.1.4/spec" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="popper_js (vbundled(1.14.5)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
@@ -873,6 +912,79 @@
         </SOURCES>
         <excluded>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/popper_js-1.14.5/assets" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="pry (vbundled(0.12.2)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/pry-0.12.2/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/pry-0.12.2/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/pry-0.12.2/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/pry-0.12.2/lib" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/pry-0.12.2/bin" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="pry-byebug (vbundled(3.7.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/pry-byebug-3.7.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/pry-byebug-3.7.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="pry-doc (vbundled(1.0.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/pry-doc-1.0.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/pry-doc-1.0.0/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/pry-doc-1.0.0/libexec" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/pry-doc-1.0.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/pry-doc-1.0.0/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/pry-doc-1.0.0/libexec" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/pry-doc-1.0.0/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/pry-doc-1.0.0/libexec" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="pry-rails (vbundled(0.3.9)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/pry-rails-0.3.9/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/pry-rails-0.3.9/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/pry-rails-0.3.9/scenarios" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/pry-rails-0.3.9/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/pry-rails-0.3.9/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/pry-rails-0.3.9/scenarios" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/pry-rails-0.3.9/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/pry-rails-0.3.9/scenarios" />
         </excluded>
       </library>
     </orderEntry>
@@ -1525,6 +1637,36 @@
         </SOURCES>
         <excluded>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/xpath-3.2.0/spec" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="yard (vbundled(0.9.19)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/yard-0.9.19/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/yard-0.9.19/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/yard-0.9.19/docs" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/yard-0.9.19/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/yard-0.9.19/templates" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/yard-0.9.19/benchmarks" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/yard-0.9.19/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/yard-0.9.19/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/yard-0.9.19/docs" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/yard-0.9.19/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/yard-0.9.19/templates" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/yard-0.9.19/benchmarks" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/yard-0.9.19/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/yard-0.9.19/docs" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/yard-0.9.19/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/yard-0.9.19/templates" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/yard-0.9.19/benchmarks" />
         </excluded>
       </library>
     </orderEntry>
