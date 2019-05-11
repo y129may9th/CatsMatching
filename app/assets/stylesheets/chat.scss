@@ -1,3 +1,4 @@
+
 .chatPage {
   input[type="text"]:focus {
     outline: 0;
@@ -16,7 +17,7 @@
       left: 40px;
       border: 5px solid;
       border-radius: 4px;
-      border-color:  transparent transparent #fd5068 #fd5068;
+      border-color:  transparent transparent #FFA89A #FFA89A;
       transform: rotate(45deg);
     }
     .chatPartner {
@@ -39,27 +40,6 @@
     overflow: scroll;
     height: 72vh;
     .message {
-      &.selfMessage {
-        display: flex;
-        flex-direction: row-reverse;
-        .commonMessage {
-          margin: 1.5em 15px 1.5em 0;
-          padding: 7px 10px;
-          max-width: 100%;
-          color: #555;
-          font-size: 16px;
-          background: #e0edff;
-          &:before {
-            content: "";
-            position: absolute;
-            top: 50%;
-            left: 100%;
-            margin-top: -10px;
-            border: 10px solid transparent;
-            border-left: 10px solid #e0edff;
-          }
-        }
-      }
       .commonMessage {
         position: relative;
         display: inline-block;
@@ -70,9 +50,11 @@
         font-size: 16px;
         border-radius: 7px;
         background: #f1f1f1;
+
         & > p {
           margin: 0;
         }
+
         &:before {
           content: "";
           position: absolute;
@@ -81,23 +63,6 @@
           margin-top: -10px;
           border: 10px solid transparent;
           border-right: 10px solid #f1f1f1;
-        }
-        &.selfMessage {
-          margin: 1.5em 15px 1.5em 0;
-          padding: 7px 10px;
-          max-width: 100%;
-          color: #555;
-          font-size: 16px;
-          background: #e0edff;
-          &:before {
-            content: "";
-            position: absolute;
-            top: 50%;
-            left: 100%;
-            margin-top: -10px;
-            border: 10px solid transparent;
-            border-left: 10px solid #e0edff;
-          }
         }
       }
     }
