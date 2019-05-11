@@ -1,18 +1,29 @@
-.usershowPage {
-  .header {
-    display: flex;
-    flex-direction: row-reverse;
-    padding-top: 10px;
-    &_logo {
-      & > a {
-        width: 40px;
-        display: block;
-        & > img {
-          width: 100%;
-        }
-      }
+.usershowPage .panel-default{
+  padding: inherit;
+  margin-top: 5%;
+  margin-bottom: 20%;
+}
+
+.usershowPage .panel-body{
+  padding: 15%;
+  margin-bottom: -50%;
+  background: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.logo {
+  & > a {
+    width: 40px;
+    display: block;
+    & > img {
+      width: 100%;
     }
   }
+}
+
 
   .userInfo {
     &_img {
@@ -62,4 +73,3 @@
       }
     }
   }
-}
