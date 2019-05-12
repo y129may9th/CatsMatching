@@ -1,23 +1,36 @@
-$main-color: #fd5068;
+$main-color: #FFA89A;
 $main-text-color: #fff;
 
-.userEditPage {
-  .header {
-    padding: 20px;
-    margin-bottom: 40px;
-    text-align: center;
-    background: $main-color;
-    color: $main-text-color;
+.userEditPage .panel-default{
+  padding: inherit;
+  margin-top: 10%;
+  margin-bottom: 20%;
+}
+
+.userEditPage .panel-body{
+  padding: 15%;
+  margin-bottom: -50%;
+  background: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-group {
+  font-size: 0.85rem;
+  .form-control {
+    font-size: 0.85rem;
   }
-  .submitBtn {
-    background: $main-color;
-    color: $main-text-color;
-    width: 200px;
-    padding: 10px;
-    border-radius: 90px;
-    transition: opacity .5s;
-    &:hover {
-      opacity: .6;
-    }
+}
+
+
+.submitBtn {
+  background: $main-color;
+  color: $main-text-color;
+  width: 200px;
+  padding: 10px;
+  border-radius: 90px;
+  transition: opacity .5s;
+  &:hover {
+    opacity: .6;
   }
 }

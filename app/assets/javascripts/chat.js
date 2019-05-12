@@ -19,7 +19,6 @@ if(/chat/.test(window.location.pathname)) {
         if (event.keyCode === 13) {
             if (event.target.value !== '') {
                 App.chat_room.speak(event.target.value);
-
             }
             event.target.value = '';
             return event.preventDefault();

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>TechpitMatch2</title>
+  <title>CatMatching</title>
   <%= csrf_meta_tags %>
 
   <meta name="current_user_id" content="<%= current_user.id if current_user %>">
@@ -12,8 +12,16 @@
 </head>
 
 <body>
-<p class="notice"><%= notice %></p>
-<p class="alert"><%= alert %></p>
+
+<% if flash[:notice] %>
+  <div class="alert alert-info"><%= flash[:notice] %></div>
+<% end %>
+<% if flash[:alert] %>
+  <div class="alert alert-danger"><%= flash[:alert] %></div>
+<% end %>
+
 <%= yield %>
+<!--<p class="notice"><%#= notice %></p>-->
+<!--<p class="alert"><%#= alert %></p>-->
 </body>
 </html>
