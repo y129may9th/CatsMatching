@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0bbca39-b70b-4e55-b233-02e4a6734a9f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/chat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/users/edit.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/users/edit.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/users/sign_in.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/users/sign_in.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/users/sign_up.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/users/sign_up.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/chat.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/chat.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/top.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/top.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/chat_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/chat_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/chat/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/chat/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/locales/devise.en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/devise.en.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -32,19 +27,28 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/matching.scss">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/chat.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state>
+              <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="3" column="116" selection-start-line="3" selection-start-column="90" selection-end-line="3" selection-end-column="116" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/users/edit.scss">
+        <entry file="file://$PROJECT_DIR$/app/views/chat/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="70">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+              <caret line="5" column="100" selection-start-line="5" selection-start-column="100" selection-end-line="5" selection-end-column="100" />
             </state>
           </provider>
         </entry>
@@ -90,10 +94,7 @@
         <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/users/show.scss" />
         <option value="$PROJECT_DIR$/app/views/matching/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/top.scss" />
         <option value="$PROJECT_DIR$/app/views/chat_messages/_chat_message.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/chat_controller.rb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/chat.scss" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/config/cable.yml" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/chat.js" />
@@ -107,15 +108,18 @@
         <option value="$PROJECT_DIR$/config/locales/devise.en.yml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/users/sign_up.scss" />
         <option value="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/chat/show.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/matching.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/users/edit.scss" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/top.scss" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/chat.scss" />
+        <option value="$PROJECT_DIR$/app/controllers/chat_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/chat/show.html.erb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="836" />
+    <option name="width" value="970" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectView">
@@ -140,13 +144,6 @@
               <item name="CatsMatching" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CatsMatching" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CatsMatching" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CatsMatching" type="b2602c69:ProjectViewProjectNode" />
@@ -210,6 +207,13 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="matching" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CatsMatching" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CatsMatching" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -351,19 +355,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557120797667</updated>
-      <workItem from="1557120800260" duration="54979000" />
+      <workItem from="1557120800260" duration="57771000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54979000" />
+    <option name="totallyTimeSpent" value="57771000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50063694" side_tool="true" weight="0.14306152" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49936306" visible="true" weight="0.24892704" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49936306" visible="true" weight="0.24749643" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.3299363" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
@@ -458,20 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/chat_messages/_chat_message.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="592">
@@ -522,20 +512,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/devise/confirmations/new.html.erb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/chat.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1092">
-          <caret line="78" selection-start-line="78" selection-end-line="78" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/jTinder.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3486">
@@ -554,13 +530,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="3" lean-forward="true" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/top.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -650,45 +619,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/chat_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/chat/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/matching/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/users/edit.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
@@ -699,10 +647,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/users/edit.scss">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/top.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/chat_messages/_chat_message.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/chat_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/matching/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/chat.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="116" selection-start-line="3" selection-start-column="90" selection-end-line="3" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/chat/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <caret line="5" column="100" selection-start-line="5" selection-start-column="100" selection-end-line="5" selection-end-column="100" />
         </state>
       </provider>
     </entry>

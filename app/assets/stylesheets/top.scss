@@ -13,27 +13,27 @@
 }
 
 
-  .contents {
-    height: 60vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
-    &_title {
-      margin-top: 12vh;
-    }
-    &_btn {
-      display: block;
-      max-width: 400px;
-      padding: 20px;
-      margin-top: 10px;
-      margin-right: auto;
-      margin-bottom: 10px;
-      margin-left: auto;
-      border-radius: 30px;
-      background: #FFA89A ;
-      color: #fff;
-
-    }
+.contents {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  &_title {
+    margin-top: 12vh;
   }
+  &_btn {
+    display: block;
+    max-width: 400px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    border-radius: 30px;
+    background: #FFA89A ;
+    color: #fff;
+
+  }
+}
 

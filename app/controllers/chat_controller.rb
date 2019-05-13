@@ -16,8 +16,8 @@ class ChatController < ApplicationController
   def show
     chat_room = ChatRoom.find_by(id: params[:id])
     @chat_room_user = chat_room.chat_room_users.where.not(user_id: current_user.id).first.user
+    # binding.pry (@chat_messages)
     @chat_messages = ChatMessage.where(chat_room: chat_room).order(:created_at)
     @my_messages = ChatMessage.where(chat_room: chat_room, user_id: current_user.id)
-    # binding.pry (@chat_messages)
   end
 end
