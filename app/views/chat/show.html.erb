@@ -2,8 +2,12 @@
   <header class="header">
     <%= link_to "", matching_index_path, class: "linkToMatching" %>
     <div class="chatPartner">
-      <div class="chatPartner_img"><%= image_tag @chat_room_user.img_name.url(:thumb) %></div>
-      <div class="chatPartner_name"><%= link_to(@chat_room_user.name, user_path(@chat_room_user.id))  %></div>
+      <%= link_to(user_path(@chat_room_user.id)) do %>
+        <%= content_tag(:div, class: "chatPartner_img") do %>
+          <%= image_tag @chat_room_user.img_name.url(:thumb) %>
+        <% end %>
+      <% end %>
+      <div class="chatPartner_name"><%= @chat_room_user.name %></div>
     </div>
   </header>
   <div class="container">
