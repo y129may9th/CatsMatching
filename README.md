@@ -1,24 +1,21 @@
-# README
+## 概要
+猫のためのマッチングアプリ
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### 機能一覧・使用した技術
+- 新規登録/ログイン機能
+  - Devise
+- 画像アプロード機能
+  - carrierwave
+  - mini_magic
+- プロフィール更新機能
+- ユーザー一覧機能
+- マッチング機能
+- チャット機能
 
-Things you may want to cover:
 
-* Ruby version
+### その他の技術
+- データベース
+  - postgreSQL  
+- デプロイ
+  - heroku
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
