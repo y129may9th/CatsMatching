@@ -1,6 +1,6 @@
 ## 概要
 猫のためのマッチングアプリ
-![Top](https://drive.google.com/open?id=1GhhVbpjWGhy-6Bf_SBKpHPfzDBqCEg_c)
+![Top](https://drive.google.com/file/d/1GhhVbpjWGhy-6Bf_SBKpHPfzDBqCEg_c/view?usp=sharing)
 
 
 ### 機能一覧・使用した技術
