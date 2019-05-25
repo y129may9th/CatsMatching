@@ -12,7 +12,11 @@
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
+.h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3em;
+  color: #666666;
+}
 .contents {
   position: relative;
   height: 60vh;
@@ -23,14 +27,22 @@
   &_title {
     margin-top: 12vh;
   }
+  &_img {
+    position: absolute;
+    left: 25%;
+    top: 40%;
+    width: 50%;
+    height: 40%;
+  }
   &_btn {
+    font-family: 'Raleway', sans-serif;
     position: absolute;
     top: 80%;
     left: 3%;
     right: 3%;
     font-size: 1rem;
     display: block;
-    max-width: 400px;
+    max-width: 200px;
     padding: 20px;
     margin-top: 10px;
     margin-right: auto;
