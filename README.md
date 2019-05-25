@@ -1,7 +1,8 @@
 ## 概要
-猫のためのマッチングアプリ
-![Top](https://drive.google.com/file/d/1GhhVbpjWGhy-6Bf_SBKpHPfzDBqCEg_c/view?usp=sharing)
+猫のためのマッチングアプリ  
+https://infinite-sea-27599.herokuapp.com/
 
+![Top](http://drive.google.com/uc?export=view&id=1GhhVbpjWGhy-6Bf_SBKpHPfzDBqCEg_c)
 
 ### 機能一覧・使用した技術
 - 新規登録/ログイン機能
