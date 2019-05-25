@@ -1,6 +1,6 @@
 ## 概要
 猫のためのマッチングアプリ
-![Top](https://imgur.com/a/TQcd1Lm
+![Top](https://imgur.com/a/TQcd1Lm)
 
 
 ### 機能一覧・使用した技術
