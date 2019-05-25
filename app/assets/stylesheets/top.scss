@@ -29,10 +29,13 @@
   }
   &_img {
     position: absolute;
-    left: 25%;
-    top: 40%;
-    width: 50%;
-    height: 40%;
+    margin: auto;
+    top: 15%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 150px;
+    height: 150px;
   }
   &_btn {
     font-family: 'Raleway', sans-serif;
